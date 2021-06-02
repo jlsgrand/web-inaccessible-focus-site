@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Bienvenue sur un site inaccessible au clavier</title>
+
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+  <main>
+    <h1>Formation Accessibilité Simplon</h1>
+    <h2>Ce site est une horreur, mais c'est normal...</h2>
+    <p>Voici un site complètement imprévisible au clavier, une horreur. C'est fait exprès juste pour se rendre compte de la difficulté que l'on peut avoir à naviguer sur un site qui n'est pas accessible.</p>
+
+    <h2>Objectif</h2>
+    <p>Trouver les problèmes de ce site et proposer une correction pour arriver à envoyer le feedback à Simplon</p>
+
+    <h2>Donnez votre avis sur la formation</h2>
+    <form id="satisfaction-form">
+      <label for="name-input">Nom</label>
+      <input tabindex="2" type="text" id="name-input">
+      <label for="firstname-input">Prénom</label>
+      <input tabindex="3" type="text" id="firstname-input">
+      <label for="range-input">Evaluation de la formation</label>
+      <input tabindex="1" type="range" min="1" max="5" value="3" id="range-input">
+      <label for="comment-input">Vos commentaires</label>
+      <textarea tabindex="4" id="comment-input" cols="30" rows="10"></textarea>
+      <button tabindex="-1" type="submit">Envoyer mon avis</button>
+    </form>
+  </main>
+
+  <script src="main.js"></script>
+</body>
+</html>

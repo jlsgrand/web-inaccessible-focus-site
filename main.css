@@ -1,0 +1,30 @@
+*:focus {
+    outline: 0;
+    /*outline: #ce0033 solid 0.2rem;*/
+}
+
+body {
+    margin: 0;
+    font-family: monospace;
+}
+
+main {
+    padding: 1rem 3rem;
+    width: 40rem;
+    margin: auto;
+    border: 0.3rem dashed #ce0033;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form > * {
+    padding: 0.3rem;
+    margin: 0.1rem;
+}
+
+h1 {
+    color: #ce0033;
+}
